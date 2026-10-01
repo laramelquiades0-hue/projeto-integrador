@@ -3,348 +3,317 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>contato </title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/heder.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contatos</title>
+
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
-    <header>
-        <ul id="nav-list">
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    inicio
 
-                </a>
+    <!-- CABEÇALHO -->
+    <header id="navbar">
+        <img src="img/Logo KINDLY.png" alt="Logo" class="logo">
+
+        <ul id="nav-list">
+
+            <li class="nav-item">
+                <a href="" class="nav-link">Início</a>
             </li>
 
+            <li class="nav-item">
+                <a href="#" class="nav-link">Projetos</a>
+            </li>
 
-               
-              
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Contatos</a>
+            </li>
 
-<li>
-    <a href="#" class="nav-link">
-                    sobre
+            <li class="nav-item">
+                <a href="#" class="nav-link">Sobre</a>
+            </li>
 
-    </a>
-</li>
+        </ul>
 
-
-
-
-   <li>  
-    <a href="#" class="nav-link active">
-                         contatos
-
-    </a>
-
-    </li>  
-
-
-
-<li>
- <a href="#" class="nav-link">
-                    projetos
-
-                </a>
-
-
-
-</li>
-
-
-<li>
-        <a href="#" class="nav-link">
-            contato
+        <a href="#contact_form" class="login-link">
+            Contatar
         </a>
-    </li>
-
-
 
     </header>
 
+
+    <!-- TÍTULO DA PÁGINA -->
     <section class="page-title">
-        <h2>
-            contatos
-        </h2>
-        <h1>
-            nossos contatos
-        </h1>
+
+        <h2>Contatos</h2>
+
+        <h1>Nossos contatos</h1>
+
         <p>
-            precisa de ajuda? entre em contato conosco, estamos a disposição para te atender.
+            Tem um projeto em mente ou precisa de uma solução sob medida?
+            Nossa equipe está pronta para ajudar você a dar o próximo passo
+            com criatividade, agilidade e foco nos resultados.
+            Vamos transformar suas ideias em realidade!
         </p>
 
     </section>
 
 
+    <!-- CONTEÚDO PRINCIPAL -->
     <main id="main_container">
+
+        <!-- INFORMAÇÕES DE CONTATO -->
         <section id="contacts_container">
-            <h3>
-                Entre em contato
-            </h3>
+
+            <h3>Entre em contato</h3>
+
             <p>
-                Preemcha o formulário abaixo e entraremos em contato com você o mais breve possível.
+                Preencha o formulário ao lado e entraremos em contato
+                com você o mais rápido possível.
             </p>
+
 
             <div id="cards_container">
 
-                <a href=" tell: +5561993991624" target="_blank" class="contact-card phone">
+                <!-- TELEFONE -->
+                <a href="tel:+5561993991624" class="contact-card">
 
                     <div class="card-icon">
                         <i class="fa-solid fa-phone"></i>
                     </div>
 
-
                     <div class="card-infos">
-                        <p>
-                            telefone
-                        </p>
-                        <p><i class="fa-solid fa-phone"></i></p>
+
+                        <p>Telefone</p>
 
                         <span>
-                            (61)99399-1624
-
+                            (61) 99399-1624
                         </span>
 
                     </div>
 
                 </a>
 
-                <a href=" " target="_blank" class="contact-card location">
+
+                <!-- LOCALIZAÇÃO -->
+                <div class="contact-card">
 
                     <div class="card-icon">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
 
-
                     <div class="card-infos">
-                        <p>
-                            localização
-                        </p>
+
+                        <p>Localização</p>
 
                         <span>
-                            📍 **Rua Onde-Nem-o-Perigo-Acha, nº 404**
-                            **Bairro Perdido do Mapa**
-                            **Cidade: Deus-Sabe-Onde**
-                            **CEP: 00000-000**
-                            **Referência:** Depois da última curva, antes de lugar nenhum.
-                            **Localização:** Onde até o perigo pede informação.
-
-
+                            Rua Onde-Nem-o-Perigo-Acha, nº 404<br>
+                            Bairro Perdido do Mapa<br>
+                            Cidade: Deus-Sabe-Onde<br>
+                            CEP: 00000-000
                         </span>
 
                     </div>
 
-                </a>
+                </div>
 
 
-                <a href="mailto:aceite.serCorno@gboy.com" target="_blank" class="contact-card phone">
+                <!-- EMAIL -->
+                <a href="mailto:aceite.serCorno@gboy.com" class="contact-card">
 
                     <div class="card-icon">
                         <i class="fa-solid fa-envelope"></i>
                     </div>
 
-
                     <div class="card-infos">
-                        <p>
-                            email
-                        </p>
+
+                        <p>Email</p>
 
                         <span>
                             aceite.serCorno@gboy.com
-
                         </span>
 
                     </div>
 
                 </a>
 
-                <a href="https://api.whatsapp.com/send?phone=5561993991624&text=Olá,%20gostaria%20de%20entrar%20em%20contato%20com%20vocês."
-                    target="_blank" class="contact-card whatsapp">
+
+                <!-- WHATSAPP -->
+                <a href="https://api.whatsapp.com/send?phone=5561993991624" target="_blank" class="contact-card">
 
                     <div class="card-icon">
                         <i class="fa-brands fa-whatsapp"></i>
                     </div>
 
-
                     <div class="card-infos">
-                        <p>
-                            whatsapp
-                        </p>
+
+                        <p>WhatsApp</p>
 
                         <span>
-                            (61)99399-1624
+                            (61) 99399-1624
                         </span>
 
                     </div>
 
                 </a>
 
-
-
-
             </div>
 
-            <h4>
-                nos siga nas redes sociais
-            </h4>
+
+            <!-- REDES SOCIAIS -->
+            <h4>Nos siga nas redes sociais</h4>
 
             <div id="social_media_icons">
 
-                <a href="#" class="incon-link twitter">
+                <a href="#" class="icon-link">
                     <i class="fa-brands fa-twitter"></i>
                 </a>
 
-                <a href="#" class="incon-link facebook">
+                <a href="#" class="icon-link">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
 
-                <a href="#" class="incon-link instagram">
+                <a href="#" class="icon-link">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
 
-                <a href="#" class="incon-link facebook">
-                    <i class="fa-brands fa-facebook"></i>
+                <a href="#" class="icon-link">
+                    <i class="fa-brands fa-linkedin"></i>
                 </a>
 
             </div>
 
-
-
-
         </section>
 
-        <section id="contsct_form_container">
-            <h3>
-                contratar
-            </h3>
+
+        <!-- FORMULÁRIO -->
+        <section id="contact_form_container">
+
+            <h3>Contatar</h3>
 
             <form method="post" id="contact_form">
+
                 <div class="form-group">
-                    <label for="email">
-                        email
+
+                    <label for="nome">
+                        Nome
                     </label>
-                    <input type="text" id="email" name="email" required>
+
+                    <input type="text" id="nome" name="nome" required>
 
                 </div>
 
 
-                <div class="input-group">
-                    <label for="subject">
-                        assunto
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
                     </label>
+
+                    <input type="email" id="email" name="email" required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="subject">
+                        Assunto
+                    </label>
+
                     <input type="text" id="subject" name="subject" required>
 
                 </div>
 
 
-
-
-
                 <div class="form-group">
+
                     <label for="message">
-                        mensagem
+                        Mensagem
                     </label>
-                    <textarea id="message" name="message" required rows="5"></textarea>
+
+                    <input type="text" id="message" name="message" rows="5" required></input>
+
+                </div>
 
 
-
-                    <div class="input-group">
-                        <label for="nome">
-                            nome
-                        </label>
-                        <input type="text" id="nome" name="nome" required>
-
-                    </div>
-
-                    <button type="submit">
-                        enviar mesnagem
-                    </button>
-
-
-
+                <button type="submit">
+                    Enviar mensagem
+                </button>
 
             </form>
-
-
 
         </section>
 
     </main>
 
 
+    <!-- RODAPÉ -->
     <footer>
 
-        <img src="img/logo.jpeg" alt="Logo" class="footer-logo">
+        <div class="footer-logo">
+            <img src="img/Logo KINDLY.png" alt="Logo" class="logo">
+        </div>
 
         <div id="footer_link_content">
 
             <ul class="footer_list">
+
                 <li>
                     <h3 class="list_title">
-                        blog
+                        Blog
                     </h3>
                 </li>
 
                 <li>
                     <a href="#" class="footer_link">
-                        tecnologia
-                    </a>>
+                        Tecnologia
+                    </a>
                 </li>
 
                 <li>
-                    <h3 class="list_title">
-                        blog
-                    </h3>
+                    <a href="#" class="footer_link">
+                        Programação
+                    </a>
                 </li>
-<li>
-  <h3 class="list_title">
-    programação
-  </h3>  
-</li> 
 
+                <li>
+                    <a href="#" class="footer_link">
+                        Design
+                    </a>
+                </li>
 
-<li>
-  <h3 class="list_title">
-    desin
-  </h3>  
-</li> 
+                <li>
+                    <a href="#" class="footer_link">
+                        Produtos
+                    </a>
+                </li>
 
-<li>
-  <h3 class="list_title">
-    produto
-  </h3>  
-</li> 
+                <li>
+                    <a href="#" class="footer_link">
+                        Apps
+                    </a>
+                </li>
 
+                <li>
+                    <a href="#" class="footer_link">
+                        Desktop
+                    </a>
+                </li>
 
-<li>
-  <h3 class="list_title">
-    app
-  </h3>  
-</li> 
+                <li>
+                    <a href="#" class="footer_link">
+                        Cloud
+                    </a>
+                </li>
 
-<li>
-  <h3 class="list_title">
-    desktop
-  </h3>  
-</li> 
-
-<li>
-  <h3 class="list_title">
-    cloud
-  </h3>  
-</li> 
             </ul>
 
         </div>
 
-
-
     </footer>
-
 
 </body>
 

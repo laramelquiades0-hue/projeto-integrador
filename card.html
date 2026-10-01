@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Card</title>
+</head>
+
+<body>
+    <!--
+         <div class="catalog-grid">
+                <div class="catalog-item" data-category="roupas">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 640 640"> -->
+    <!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+    <!-- <path fill="rgb(22, 163, 74)"
+                            d="M320.2 176C364.4 176 400.2 140.2 400.2 96L453.7 96C470.7 96 487 102.7 499 114.7L617.6 233.4C630.1 245.9 630.1 266.2 617.6 278.7L566.9 329.4C554.4 341.9 534.1 341.9 521.6 329.4L480.2 288L480.2 512C480.2 547.3 451.5 576 416.2 576L224.2 576C188.9 576 160.2 547.3 160.2 512L160.2 288L118.8 329.4C106.3 341.9 86 341.9 73.5 329.4L22.9 278.6C10.4 266.1 10.4 245.8 22.9 233.3L141.5 114.7C153.5 102.7 169.8 96 186.8 96L240.3 96C240.3 140.2 276.1 176 320.3 176z" />
+                    </svg>
+                    <span>Roupas</span>
+                </div>
+    -->
+
+<!--TESTE DO CARD IA-->
+
+<!-- CABEÇALHO -->
+    <header id="navbar">
+        <img src="imagem/logo.png" alt="Logo" class="logo">
+
+        <ul id="nav-list">
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Início</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Projetos</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Contatos</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">Sobre</a>
+            </li>
+
+        </ul>
+
+        <a href="#contact_form" class="login-link">
+            Contatar
+        </a>
+
+    </header>
+
+    <div class="container-form">
+
+        <h2>Cadastrar Novo Card</h2>
+
+
+
+        <form id="form-criar-card">
+
+            <div class="campo">
+
+                <label for="titulo-card">Título do Item:</label>
+
+                <input type="text" id="titulo-card" placeholder="Ex: Notebook Dell" required>
+
+            </div>
+
+
+
+            <div class="campo">
+
+                <label for="preco-card">Preço (R$):</label>
+
+                <input type="number" id="preco-card" step="0.01" placeholder="Ex: 2500.00" required>
+
+            </div>
+
+
+
+            <div class="campo">
+
+                <label for="imagem-card">URL da Imagem:</label>
+
+                <input type="url" id="imagem-card" placeholder="https://exemplo.com/imagem.jpg">
+
+            </div>
+
+
+
+            <div class="campo">
+
+                <label for="descricao-card">Descrição:</label>
+
+                <textarea id="descricao-card" rows="4" placeholder="Escreva os detalhes aqui..."></textarea>
+
+            </div>
+
+
+
+            <button type="submit" class="btn-enviar">Adicionar ao Catálogo</button>
+
+        </form>
+
+    </div>
+
+    <script src="javascript/card.js"></script>
+    <script src="javascript/catalogo.js"></script>
+
+    
+
+</body>
+
+</html>
